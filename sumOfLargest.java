@@ -16,7 +16,7 @@ public class sumOfLargest
 	else
 	  {
 		Arrays.sort (values);
-		System.out.println (values[n - 2] + values[n - 3]);
+		System.out.println ("Sum of 2nd and 3rd largest numbers: "+ (values[n - 2] + values[n - 3]));
 	  }
 
   }
